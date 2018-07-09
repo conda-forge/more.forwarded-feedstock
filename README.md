@@ -17,14 +17,15 @@ this header into account.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/more.forwarded-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/more.forwarded-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/more.forwarded-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/more.forwarded-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/more.forwarded-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/more-forwarded-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/more.forwarded-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/more.forwarded-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/more.forwarded/badges/version.svg)](https://anaconda.org/conda-forge/more.forwarded)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/more.forwarded/badges/downloads.svg)](https://anaconda.org/conda-forge/more.forwarded)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-more.forwarded-green.svg)](https://anaconda.org/conda-forge/more.forwarded) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/more.forwarded.svg)](https://anaconda.org/conda-forge/more.forwarded) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/more.forwarded.svg)](https://anaconda.org/conda-forge/more.forwarded) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/more.forwarded.svg)](https://anaconda.org/conda-forge/more.forwarded) |
 
 Installing more.forwarded
 =========================
@@ -69,6 +70,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
