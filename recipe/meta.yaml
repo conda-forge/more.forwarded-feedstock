@@ -30,9 +30,12 @@ requirements:
 test:
   requires:
     - python {{ python_min }}
+    - pip
   imports:
     - more
     - more.forwarded
+  commands:
+    - pip check
 
 about:
   home: http://pypi.python.org/pypi/more.forwarded
